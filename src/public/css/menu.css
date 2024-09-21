@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(244, 244, 244);
+}
+
+.header__a {
+    text-decoration: none;
+}
+
+.header__div {
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+    width: 3em;
+    height: 3em;
+    margin: 2.5em 0 0 6em;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.section {
+    margin-top: 8em;
+}
+
+.table {
+    margin: 0 auto;
+}
+
+.th {
+    padding: 0.5em 0;
+}
+
+.section__button {
+    text-decoration: none;
+    color: blue;
+    font-size: 200%;
+    font-weight: lighter;
+    border: none;
+    background-color: rgb(244, 244, 244);
+}

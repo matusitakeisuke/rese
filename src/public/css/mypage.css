@@ -1,0 +1,119 @@
+.table {
+    margin: 5% 0 0 36%;
+}
+
+.input {
+    border-style: none;
+    background-color: rgb(244, 244, 244);
+    text-align: right;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.section__div {
+    margin-top: 2%;
+}
+
+.div__flex {
+    display: flex;
+    height: 40%;
+}
+
+.div__left {
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.div__right {
+    margin-left: 31%;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.section__flex {
+    display: flex;
+}
+
+.section__main {
+    background-color: blue;
+    width: 30%;
+    margin-left: 10%;
+    border-radius: 5%;
+}
+
+.div__display {
+    display: flex;
+    padding: 0 3%;
+    margin-top: 3%;
+}
+
+.p__reservation {
+    padding-left: 10%;
+    color: rgb(255, 255, 255);
+}
+
+.p__a {
+    margin-left: 55%;
+    border: solid 2px rgb(255, 255, 255);
+    padding: 0 2%;
+    border-radius: 50%;
+}
+
+.a__border {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.p__category {
+    padding-left: 5%;
+    color: rgb(255, 255, 255);
+}
+
+.p__category-padding {
+    padding-left: 10%;
+    color: rgb(255, 255, 255);
+}
+
+.div__main {
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    border-radius: 5%;
+    margin-left: 8%;
+    box-shadow: 3px 3px 3px black;
+}
+
+.img__border {
+    width: 100%;
+    height: 50%;
+    border-radius: 5% 5% 0 0;
+}
+
+.div__flex-display {
+    display: flex;
+}
+
+.h2__div {
+    margin-left: 10%;
+} 
+
+.table__td {
+    margin-left: 10%;
+}
+
+.div__margin {
+    background-color: blue;
+    margin: 5% 0 10% 10%;
+    padding: 3% 5%;
+    border-radius: 5%;
+
+}
+
+.a__text-decoration {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.p__margin-left {
+    margin-left: 30%;
+}

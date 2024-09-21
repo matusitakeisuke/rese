@@ -1,0 +1,39 @@
+.section {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 7em;
+    width: 27%;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 5px;
+}
+
+.section__p {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    padding: 5% 0 5% 5%;
+    font-size: small;
+    border-radius: 5px 5px 0 0;
+}
+
+.img {
+    margin: 0 0.5em 0 2em;
+}
+
+.table__input {
+    border-style: none;
+    border-bottom: solid 1px black;
+    width: 200%;
+}
+
+.section__button {
+    padding: 2em 0 1em 18em;
+}
+
+.button {
+    border-style: none;
+    border-radius: 5px;
+    font-size: small;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    padding: 5% 25%;
+}
