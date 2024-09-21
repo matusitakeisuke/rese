@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(244, 244, 244);
+}
+
+.header {
+    display: flex;
+}
+
+.header__div {
+    position: relative;
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+    width: 3em;
+    height: 3em;
+    margin: 2.5em 0 0 6em;
+}
+
+.div__one {
+    border-bottom: solid 1px rgb(255, 255, 255);
+    padding-top: 30%;
+    margin: 0 50% 0 30%;
+}
+
+.div__two {
+    border-bottom: solid 1px rgb(255, 255, 255);
+    padding-top: 18%;
+    margin: 0 20%;
+}
+
+.div__three {
+    border-bottom: solid 1px rgb(255, 255, 255);
+    padding-top: 18%;
+    margin: 0 70% 0 20%;
+}
+
+.header__h1 {
+    color: blue;
+    margin: 1.3em 0 0 1em;
+}
+
+.h2 {
+    position: relative;
+    width: 40%;
+    margin: 5% 0 0 35%;
+    padding: 3% 0 0 2%;
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.input {
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.div__form {
+    margin-top: 4%;
+}
+
+.div__select {
+    width: 100%;
+    max-width: 200px;
+    position: relative;
+    margin: 2% 0;
+}
+
+.div__select::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: rgb(244, 244, 244) transparent transparent transparent;
+    position: absolute;
+    top: 50%;
+    left: 240%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.select {
+    width: 250%;
+    padding: 10px;
+    -webkit-appearance: none;
+    appearance: none; 
+    border-radius: 5px;
+}
+
+.div__color {
+    background-color: rgb(97, 97, 255);
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 50%;
+}
+
+.div__flex {
+    display: flex;
+}
+
+.p__font-size {
+    font-size: 60%;
+    font-weight: lighter;
+    margin: 1% 8%;
+}
+
+.div__button {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 199);
+    padding: 2% 45%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.section {
+    position: absolute;
+    top: 20%;
+    left: 6.5%;
+}
+
+.section__flex {
+    display: flex;
+}
+
+.div__background-color{
+    background-color: rgb(255, 255, 255);
+    padding: 1% 1.5%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.div__a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.div__h2 {
+    padding-top: 0.5%;
+    font-weight: bold;
+    font-size: 150%;
+    margin-left: 1%;
+}
+
+.div__img {
+    margin-top: 2%;
+}
+
+.img__border {
+    width: 70%;
+    height: 30%;
+}
+
+.table {
+    margin-top: 1em;
+}
