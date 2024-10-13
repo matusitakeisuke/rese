@@ -26,8 +26,6 @@ use App\Http\Controllers\DoneController;
 
 Route::get('/login', [LoginController::class, 'index']);
 
-
-
 Route::get('/register', [RegisterController::class, 'index']);
 Route::middleware(['guest:'.config('fortify.guard')])
     ->group(function () {
@@ -36,6 +34,8 @@ Route::middleware(['guest:'.config('fortify.guard')])
 
         Route::post('register', [RegisteredUserController::class, 'store']);
     });
+
+
 
 Route::get('/menu', [MenuController::class, 'index']);
 

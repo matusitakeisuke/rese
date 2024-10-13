@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="header">
-        <a href="">
+        <a href="/menu">
             <div class="header__div">
                 <div class="div__one"></div>
                 <div class="div__two"></div>

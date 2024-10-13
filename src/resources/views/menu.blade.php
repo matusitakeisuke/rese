@@ -19,6 +19,7 @@
 
     </header>
 
+    @auth
     <div class="section">
         <table class="table">
             <form action="">
@@ -41,5 +42,31 @@
             </form>
         </table>
     </div>
+    @endauth
+
+    @guest
+    <div class="section">
+      <table class="table">
+          <form action="">
+          @csrf
+            <tr class="tr">
+              <th class="th"><a class="section__button" href="/">Home</a></th>
+            </tr>
+          </form>
+          <form action="">
+          @csrf
+            <tr class="tr">
+              <th class="th"><a class="section__button" href="/register">Registration</a></th>
+            </tr>
+          </form>
+          <form action="">
+          @csrf
+            <tr class="tr">
+              <th class="th"><a class="section__button" href="login">Login</a></th>
+            </tr>
+          </form>
+      </table>
+  </div>
+  @endguest
 </body>
 </html>
